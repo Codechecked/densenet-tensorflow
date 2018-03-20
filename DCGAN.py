@@ -14,7 +14,7 @@ from tensorpack.utils.viz import stack_patches
 from tensorpack.tfutils.scope_utils import auto_reuse_variable_scope
 import tensorflow as tf
 
-from GAN import GANTrainer, RandomZData, GANModelDesc
+from tensorpack.examples.GAN import GANTrainer, RandomZData, GANModelDesc
 
 """
 1. Download the 'aligned&cropped' version of CelebA dataset
